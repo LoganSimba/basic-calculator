@@ -27,9 +27,12 @@ public class BasicCalculator {
         System.out.println("    (D)ivide");
 
         //prompt user for their option
-        System.out.println("Please select an option: ");
+        System.out.println("Please select an option: M");
         String optionalChar = scanner.nextLine();
 
+        //calculate product and print product to the user
+        int product = firstNumber * secondNumber;
+        System.out.printf("%d * %d = %d%n", firstNumber , secondNumber, product);
 
 
     }
