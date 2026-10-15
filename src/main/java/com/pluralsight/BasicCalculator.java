@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BasicCalculator {
 
     public static void main(String[] args) {
-
+        // initialize scanner
         Scanner scanner = new Scanner(System.in);
 
         // propmt user for the first number and store in the scanner
