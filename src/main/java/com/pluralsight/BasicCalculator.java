@@ -16,6 +16,15 @@ public class BasicCalculator {
         System.out.printf("Enter the second number: ");
         int secondNumber = scanner.nextInt();
 
+        // prompts for the user in the sentence
+        System.out.println("Possible calculations:");
+        System.out.println("    (A)dd");
+        System.out.println("    (S)ubtract");
+        System.out.println("    (M)ultiply");
+        System.out.println("    (D)ivide");
+
+
+
 
 
 
