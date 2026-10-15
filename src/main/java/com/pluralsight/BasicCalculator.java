@@ -16,6 +16,9 @@ public class BasicCalculator {
         System.out.printf("Enter the second number: ");
         int secondNumber = scanner.nextInt();
 
+        //added a next because int to string is a problem
+        scanner.nextLine();
+
         // prompts for the user in the sentence
         System.out.println("Possible calculations:");
         System.out.println("    (A)dd");
@@ -23,8 +26,9 @@ public class BasicCalculator {
         System.out.println("    (M)ultiply");
         System.out.println("    (D)ivide");
 
-
-
+        //prompt user for their option
+        System.out.println("Please select an option: ");
+        String optionalChar = scanner.nextLine();
 
 
 
