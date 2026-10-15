@@ -18,6 +18,11 @@ public class PayrollCalculator {
         //prompt user for pay rate
         System.out.printf("Pay rate: ");
         double payRate = scanner.nextDouble();
+
+        //prompt user
+        double grossPay = hoursWorked * payRate;
+        System.out.printf("%s's gross pay is $%.2f ", name , grossPay );
+
     }
 
 }
