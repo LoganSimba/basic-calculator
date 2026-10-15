@@ -19,10 +19,25 @@ public class PayrollCalculator {
         System.out.printf("Pay rate: ");
         double payRate = scanner.nextDouble();
 
-        //prompt user
-        double grossPay = hoursWorked * payRate;
+        //initialize grosspay
+        double grossPay;
+
+        // if statement to check for the extra hours
+        if(hoursWorked > 40){
+
+            grossPay =  hoursWorked * payRate * 1.5;
+        }
+        else {
+            grossPay = hoursWorked * payRate;
+        }
+        //print result to the user
         System.out.printf("%s's gross pay is $%.2f ", name , grossPay );
+
+
+
+
+        }
 
     }
 
-}
+
